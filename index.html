@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>日替わり四十八手診断</title>
+</head>
+<body>
+    <div id="result-area">
+        <h1>日替わり四十八手診断</h1>
+    </div>
+    <div id="tweet-area"></div>
+
+    <p id="question">あなたのお名前は？</p>
+    <input type="text" id="user-name" size="40" maxlength="20">
+
+    <form id="type-sex">
+        <input type="radio" name="usersex" value="male" checked="checked">男性
+        <input type="radio" name="usersex" value="female">女性
+    </form>
+    <p>
+        <button id="assessment">送信</button>
+        <button><a href="index.html">リセット</a></button>
+    </p>
+    <script src="diagnosis.js"></script>
+</body>
+</html>
