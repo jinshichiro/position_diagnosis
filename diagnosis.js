@@ -109,6 +109,7 @@ assessmentButton.onclick = () => {
     anchor.setAttribute('href', hrefValue);
     anchor.className = 'twitter-hashtag-button';
     anchor.setAttribute('data-text', result);
+    anchor.setAttribute('data-url', 'https://github.com/jinshichiro/position_diagnosis/');
     anchor.innerText = 'Tweet #私の得意な体位';
     tweetDivided.appendChild(anchor);
 
