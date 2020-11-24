@@ -2,10 +2,11 @@ body {
     background-color: #04a6eb;
     color: #fdffff;
     width: 500px;
+    padding-left: 20px;
     margin-right: auto;
     margin-left: auto;
-    padding-left: 20px;
 }
+
 
 button {
     padding: 5px 20px;
@@ -21,4 +22,13 @@ input {
 a {
     color: #fdffff;
     text-decoration: none;
+}
+
+
+footer{
+    width: 500px;
+    height: 30px;
+    font-size: x-small;
+    position: absolute;
+    bottom: 0px;
 }
